@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShoppingBasket, Home, Sparkles, Square, Heart, DollarSign, Menu } from 'lucide-react';
-
+import './globals.css'
 const AeroZelHomepage = () => {
   return (
     <div className="min-h-screen bg-white font-sans">
@@ -90,7 +90,7 @@ const AeroZelHomepage = () => {
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-3xl md:text-4xl font-black text-black mb-4">Why Choose <span className="text-purple-600">AeroZel</span> ?</h2>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto font-medium leading-relaxed">
-            We're committed to bringing you the finest quality
+            We&apos;re committed to bringing you the finest quality
             home and personal care products, crafted with
             natural ingredients and modern technology.
           </p>
@@ -131,7 +131,7 @@ const AeroZelHomepage = () => {
             </div>
             <h3 className="text-xl font-black text-black mb-4">Affordable Premium</h3>
             <p className="text-gray-700 font-medium leading-relaxed">
-              Premium quality products at prices that don't break the bank. Direct-to-consumer model means better value for you.
+              Premium quality products at prices that don&apos;t break the bank. Direct-to-consumer model means better value for you.
             </p>
           </div>
         </div>
@@ -249,7 +249,7 @@ const AeroZelHomepage = () => {
         </div>
         
         <div className="border-t border-gray-600 mt-8 pt-6 text-center">
-          <p className="text-gray-400 text-sm font-medium">© 2024 AeroZel. All rights reserved. Made with 💜 in India</p>
+          <p className="text-gray-400 text-sm font-medium">© 2025 AeroZel. All rights reserved. Made with 💜 in India</p>
         </div>
       </footer>
     </div>
